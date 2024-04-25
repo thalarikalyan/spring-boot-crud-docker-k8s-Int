@@ -13,4 +13,4 @@ spring:
     hibernate:
       ddl-auto: update
 server:
-  port: 9292
+  port: 8080
