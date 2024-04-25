@@ -15,7 +15,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "ORDERS_TBL")
 public class Order {
-    @Id
     @GeneratedValue
     private int id;
     private String name;
