@@ -14,7 +14,7 @@ pipeline{
 
         stage("SCM checkout"){
             steps{
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/thalarikalyan/spring-jenkins-docker-integration.git']])
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/thalarikalyan/spring-boot-crud-docker-k8s-Int.git']])
             }
         }
         stage("Build Process"){
